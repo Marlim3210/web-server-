@@ -10,7 +10,7 @@ OS yang baru saya coba masih Centos. Rencananya saya akan mencoba menggunakan OS
 - MYSQL
 - php
 
-## Instalasi Bind
+## Instalasi DNS SERVER
 selanjutnya mungkin akan mencoba 
 Bind
 
