@@ -1,0 +1,32 @@
+# DNS SERVER
+Menginstall DNS Server untuk kebutuhan Web Server
+
+## Cara Instalasi
+jalankan perintah berikut untuk install bind9
+_apt install bind9_
+
+## Konfigurasi Network Interface
+Sebelumnya kita konfigurasi IP Address secara Static, Resolv.conf dan hosts seperti dibawah ini.
+_nano /etc/netplan/00-installer-config.yaml_
+
+# Konfigurasi interface
+_This is the network config written by 'subiquity'
+network:
+  ethernets:
+    enp0s3:
+      dhcp4: false
+      addresses: [192.168.20.10/24]
+      gateway4: 192.168.20.1
+      nameservers:
+        search: [aspal.com]
+        addresses: [192.168.20.10, 192.168.20.1]
+  version: 2_
+
+# Konfigurasi Resolv.conf
+  nano /etc/resolv.conf
+
+_operation for /etc/resolv.conf.
+nameserver 192.168.20.10
+nameserver 192.168.20.1
+options edns0
+search aspal.com_
