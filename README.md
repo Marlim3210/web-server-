@@ -10,6 +10,8 @@ OS yang baru saya coba masih Centos. Rencananya saya akan mencoba menggunakan OS
 - MYSQL
 - php
 
+![satu](img/web/1.jpg)
+
 ## Instalasi DNS SERVER
 selanjutnya mungkin akan mencoba 
 Bind
