@@ -10,7 +10,8 @@ Sebelumnya kita konfigurasi IP Address secara Static, Resolv.conf dan hosts sepe
 _nano /etc/netplan/00-installer-config.yaml_
 
 # Konfigurasi interface
-_This is the network config written by 'subiquity'
+
+<code>This is the network config written by 'subiquity'
 network:
   ethernets:
     enp0s3:
@@ -20,7 +21,7 @@ network:
       nameservers:
         search: [aspal.com]
         addresses: [192.168.20.10, 192.168.20.1]
-  version: 2_
+  version: 2</code>
 
 # Konfigurasi Resolv.conf
   nano /etc/resolv.conf
