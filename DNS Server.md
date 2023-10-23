@@ -8,7 +8,8 @@ jalankan perintah berikut untuk _install bind9_
 
 ## Konfigurasi Network Interface
 Sebelumnya kita konfigurasi IP Address secara Static, Resolv.conf dan hosts seperti dibawah ini.
-_nano /etc/netplan/00-installer-config.yaml_
+
+<code>nano /etc/netplan/00-installer-config.yaml</code>
 
 # Konfigurasi interface
 
@@ -25,10 +26,10 @@ network:
   version: 2</code>
 
 # Konfigurasi Resolv.conf
-  nano /etc/resolv.conf
+<code>  nano /etc/resolv.conf
 
-_operation for /etc/resolv.conf.
+operation for /etc/resolv.conf.
 nameserver 192.168.20.10
 nameserver 192.168.20.1
 options edns0
-search aspal.com_
+search aspal.com</code>
