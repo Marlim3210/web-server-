@@ -2,8 +2,8 @@
 Menginstall DNS Server untuk kebutuhan Web Server
 
 ## Cara Instalasi
-jalankan perintah berikut untuk install bind9
-_apt install bind9_
+jalankan perintah berikut untuk _install bind9_
+<code>apt install bind9</code>
 
 ## Konfigurasi Network Interface
 Sebelumnya kita konfigurasi IP Address secara Static, Resolv.conf dan hosts seperti dibawah ini.
