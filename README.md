@@ -7,6 +7,8 @@ Centos Server 7
 ### service - service yang di install diantaranya adalah
 - SSH SERVER
 - Apache HTTP server + konfigurasi
+
+  
   ![Setting IP](https://github.com/Marlim3210/web-server-/assets/145945308/6b10fbc7-eac5-4185-8d97-687a1bba00f4)
   ![server admn](https://github.com/Marlim3210/web-server-/assets/145945308/4146f322-64f4-40f3-944f-39b0f33c8213)
   
